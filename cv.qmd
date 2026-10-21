@@ -1,0 +1,19 @@
+---
+title: "Curriculum Vitae"
+---
+
+# Skills
+
+- Data cleaning and preparation
+- Exploratory data analysis
+- R programming
+- Python programming
+- Data visualisation
+- Machine learning fundamentals
+
+
+## Education
+
+**University of Ibadan** | M.Sc. Data Science | 2026–Present
+
+**Federal University of Technology, Akure** | B.Sc. Software Engineering | 2018–2024

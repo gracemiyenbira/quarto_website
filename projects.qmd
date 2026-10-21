@@ -1,0 +1,158 @@
+---
+title: "Exploring Fuel Efficiency in Cars"
+subtitle: "A statistical analysis of vehicle weight, horsepower, and miles per gallon"
+---
+
+## 1. Introduction
+
+Fuel efficiency is an important consideration in vehicle design because it affects fuel costs and the amount of fuel consumed during travel. Understanding how vehicle characteristics relate to fuel efficiency can help explain differences in the performance of cars.
+
+This analysis uses the built-in `mtcars` dataset in R to investigate the relationship between fuel efficiency, vehicle weight, and engine horsepower.
+
+## 2. Objectives
+
+The objectives of this analysis are to:
+
+1. Describe fuel efficiency in the selected vehicles.
+2. Examine the relationship between vehicle weight and fuel efficiency.
+3. investigate whether vehicle weight and horsepower are associated with fuel efficiency when considered together.
+
+## 3. Dataset description
+
+The `mtcars` dataset contains observations on 32 automobiles and 11 variables. The data were extracted from the 1974 *Motor Trend* US magazine and describe cars from the 1973–1974 model years.
+
+The variables used in this analysis are:
+
+- **MPG:** Fuel efficiency, measured in miles per US gallon.
+- **Weight (`wt`):** Vehicle weight, measured in thousands of pounds.
+- **Horsepower (`hp`):** Engine horsepower.
+
+The dataset is included with R, so no external file or download is required.
+
+```{r}
+#| label: data-overview
+#| echo: true
+
+data(mtcars)
+
+# Examine the dataset
+dim(mtcars)
+head(mtcars)
+
+# Summary statistics for the variables
+summary(mtcars[, c("mpg", "wt", "hp")])
+```
+
+## 4. Exploratory analysis
+
+The next step to take is to examine whether vehicle weight is associated with fuel efficiency. The scatter plot below displays the relationship between vehicle weight and miles per gallon.
+
+```{r}
+#| label: fig-mpg-weight
+#| fig-cap: "Relationship between vehicle weight and fuel efficiency in the mtcars dataset."
+#| fig-width: 7
+#| fig-height: 5
+
+library(ggplot2)
+
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point(size = 2.5) +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(
+    title = "Vehicle Weight and Fuel Efficiency",
+    x = "Vehicle weight (thousands of pounds)",
+    y = "Fuel efficiency (miles per US gallon)"
+  ) +
+  theme_minimal()
+```
+
+As shown in Figure @fig-mpg-weight, the relationship between vehicle weight and fuel efficiency appears negative. Heavier vehicles generally have lower miles-per-gallon values, while lighter vehicles tend to have higher values. The fitted line summarizes the overall linear trend, and the shaded region represents its confidence interval.
+
+## 5. Statistical modelling
+
+A multiple linear regression model is used to investigate the association between vehicle weight, horsepower, and fuel efficiency.
+
+The model is expressed as:
+
+\[
+MPG_i = \beta_0 + \beta_1 WT_i + \beta_2 HP_i + \epsilon_i
+\]
+
+where \(MPG_i\) represents fuel efficiency, \(WT_i\) represents vehicle weight, \(HP_i\) represents horsepower, and \(\epsilon_i\) represents the error term.
+
+```{r}
+#| label: model-fitting
+
+model <- lm(mpg ~ wt + hp, data = mtcars)
+
+summary(model)
+```
+
+This model estimates the association between each predictor and fuel efficiency while holding the other predictor constant.
+
+## 6. Results
+
+The regression coefficients and their statistical significance are presented in Table @tbl-regression.
+
+```{r}
+#| label: tbl-regression
+#| tbl-cap: "Multiple linear regression results for fuel efficiency."
+
+model_results <- as.data.frame(summary(model)$coefficients)
+
+model_results$Variable <- rownames(model_results)
+rownames(model_results) <- NULL
+
+model_results <- model_results[, c(
+  "Variable", "Estimate", "Std. Error", "t value", "Pr(>|t|)"
+)]
+
+names(model_results) <- c(
+  "Variable",
+  "Coefficient",
+  "Standard error",
+  "t statistic",
+  "p-value"
+)
+
+knitr::kable(
+  model_results,
+  digits = 4,
+  align = "lrrrr"
+)
+```
+
+A negative regression coefficient indicates that an increase in the predictor is associated with lower fuel efficiency, after accounting for the other variable in the model. A positive coefficient would indicate the opposite direction.
+
+The p-values provide evidence about whether each coefficient differs from zero under the assumptions of the fitted model. They should be interpreted alongside the estimated effect sizes and the limitations of the dataset.
+
+```{r}
+#| label: model-fit
+
+model_summary <- summary(model)
+
+fit_results <- data.frame(
+  Measure = c("Number of cars", "R-squared", "Adjusted R-squared"),
+  Value = c(
+    nobs(model),
+    round(model_summary$r.squared, 4),
+    round(model_summary$adj.r.squared, 4)
+  )
+)
+
+knitr::kable(
+  fit_results,
+  caption = "Summary of model fit",
+  align = "lr"
+)
+```
+
+The R-squared value describes the proportion of variation in fuel efficiency explained by vehicle weight and horsepower together in this dataset. The adjusted R-squared also accounts for the number of predictors included in the model.
+
+## 7. Conclusion
+
+The exploratory plot and regression model provide two complementary ways of studying fuel efficiency. The plot makes the relationship between weight and miles per gallon easy to see, while the regression model estimates the associations of weight and horsepower with fuel efficiency simultaneously.
+
+These results describe associations rather than proving that vehicle weight or horsepower causes a change in fuel efficiency. Other factors, including engine technology, vehicle design, and driving conditions, are not accounted for in this simple model.
+
+The dataset is also relatively small and represents automobiles from the 1970s. Its results should therefore not be treated as representative of modern vehicles.

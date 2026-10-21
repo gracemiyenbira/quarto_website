@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Kukuru Grace"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: blogs.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+      - href: teaching.qmd
+        text: Teaching
+    right:
+      - icon: github
+        href: https://github.com/gracemiyenbira
+        aria-label: GitHub
+  search:
+    location: navbar
+  page-footer:
+    center: "2026 Kukuru Grace. Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: cyborg
+    css: styles.css
+    toc: true
+
+
+execute:
+  freeze: auto

@@ -1,0 +1,25 @@
+---
+title: "Why Data Quality Matters in Machine Learning"
+description: "How errors in data can affect machine-learning predictions and interpretation."
+author: "Kukuru Grace Miyenbira"
+date: "2026-10-19"
+categories:
+  - Data Science
+  - Machine Learning
+---
+
+## The Importance of Reliable Data
+
+A machine-learning model can only learn from the data it receives. If that data contains errors, incorrect labels, or inaccurate measurements, the model's predictions and the conclusions drawn from it may be affected.
+
+A study published in *Scientific Reports* on 11 October 2026 examined how different types of data errors influence machine-learning performance and the interpretation of important features.
+
+## Why This Matters
+
+Data scientists often spend considerable time selecting algorithms and improving model accuracy. However, this research highlights why the quality of the input data also deserves attention.
+
+For example, incorrect entries in a healthcare dataset could affect predictions about patient outcomes. Similarly, errors in financial data could influence a model used to assess risk.
+
+It is therefore important to note that building a good model involves more than choosing an algorithm, data cleaning, validation, and understanding how data was collected are  also essential parts of a reliable analysis.
+
+**Source:** [Scientific Reports — Data Science research](https://www.nature.com/subjects/data-science).

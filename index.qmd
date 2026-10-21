@@ -1,0 +1,31 @@
+---
+title: "Kukuru Grace Miyenbira"
+subtitle: "M.Sc. Data Science Student, University of Ibadan"
+image: profile.jpg
+about:
+  template: solana
+  links:
+    - icon: github
+      text: GitHub
+      href: "https://github.com/gracemiyenbira"
+    - icon: envelope
+      text: Email
+      href: "mailto:gracekukuru@gmail.com"
+---
+
+I am a data science student interested in *Machine Learning*, *Data Analytics*, *and* *Artificial Intelligence*.
+
+This website collects my projects, my blog, and my CV.
+
+## Education
+
+**University of Ibadan** | M.Sc. Data Science | 2026–Present
+
+**Federal University of Technology, Akure** | B.Sc. Software Engineering | 2018–2024
+
+## Interests
+
+- Data Analytics
+- Machine Learning
+- Artificial Intelligence
+- Data Science

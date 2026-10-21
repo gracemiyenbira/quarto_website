@@ -1,0 +1,64 @@
+---
+title: "5 Data Science Projects Beginners Can Build in 2026"
+description: "Five practical project ideas to build your data science skills and portfolio."
+author: "Kukuru Grace Miyenbira"
+date: "2026-10-19"
+categories:
+  - "Data Science"
+  - "Projects"
+---
+
+## Getting started with data science projects
+
+If you are learning data science, you do not need complicated algorithms or huge datasets to begin building a portfolio. Start with a clear question, a manageable dataset, and an analysis you can explain.
+
+Here are five beginner-friendly projects to try in 2026.
+
+## 1. Student Performance Analysis
+
+Explore how study time, attendance, and other factors relate to students' academic performance.
+
+**Skills:** Data cleaning, exploratory data analysis, visualisation.
+
+**Dataset:** [UCI Student Performance](https://archive.ics.uci.edu/dataset/320/student+performance).
+
+## 2. Personal Expense Analysis
+
+Analyse spending by category and month to identify where money goes and which expenses take up the largest share.
+
+**Skills:** Data cleaning, grouping, summary statistics, charts.
+
+**Dataset:** Create a small spreadsheet of sample expenses or use a public financial dataset.
+
+## 3. Weather Trend Analysis
+
+Investigate temperature or rainfall patterns over time. Identify the hottest months, compare seasons, and visualise changes.
+
+**Skills:** Time-series analysis, data visualisation, descriptive statistics.
+
+**Dataset:** [Open-Meteo historical weather data](https://open-meteo.com/).
+
+## 4. Wine Quality Prediction
+
+Explore whether chemical measurements, such as acidity and alcohol content, are associated with wine quality.
+
+**Skills:** Correlation, regression or classification, model evaluation.
+
+**Dataset:** [UCI Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality).
+
+## 5. A Simple Data Dashboard
+
+Choose a small sales or survey dataset and create a dashboard showing important totals, comparisons, and trends.
+
+**Skills:** Data analysis, visualisation, communicating insights.
+
+**Tools:** Excel, Power BI, Tableau, or R.
+
+## How to make your project stand out
+
+Do not stop at copying a tutorial. Write down a question, clean and explore the data, create meaningful charts, explain your findings, and document your code on GitHub.
+
+Three well-finished projects that demonstrate your thinking are more useful than many unfinished projects.
+
+
+The important thing is to start small, answer a real question, and build on what you learn. The goal is to demonstrate that you can turn data into understandable, useful insights.
