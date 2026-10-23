@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "posts/Data_science_tips/index.html",
+    "href": "posts/Data_science_tips/index.html",
+    "title": "Why Data Quality Matters in Machine Learning",
+    "section": "",
+    "text": "A machine-learning model can only learn from the data it receives. If that data contains errors, incorrect labels, or inaccurate measurements, the model’s predictions and the conclusions drawn from it may be affected.\nA study published in Scientific Reports on 11 October 2026 examined how different types of data errors influence machine-learning performance and the interpretation of important features."
+  },
+  {
+    "objectID": "posts/Data_science_tips/index.html#the-importance-of-reliable-data",
+    "href": "posts/Data_science_tips/index.html#the-importance-of-reliable-data",
+    "title": "Why Data Quality Matters in Machine Learning",
+    "section": "",
+    "text": "A machine-learning model can only learn from the data it receives. If that data contains errors, incorrect labels, or inaccurate measurements, the model’s predictions and the conclusions drawn from it may be affected.\nA study published in Scientific Reports on 11 October 2026 examined how different types of data errors influence machine-learning performance and the interpretation of important features."
+  },
+  {
+    "objectID": "posts/Data_science_tips/index.html#why-this-matters",
+    "href": "posts/Data_science_tips/index.html#why-this-matters",
+    "title": "Why Data Quality Matters in Machine Learning",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nData scientists often spend considerable time selecting algorithms and improving model accuracy. However, this research highlights why the quality of the input data also deserves attention.\nFor example, incorrect entries in a healthcare dataset could affect predictions about patient outcomes. Similarly, errors in financial data could influence a model used to assess risk.\nIt is therefore important to note that building a good model involves more than choosing an algorithm, data cleaning, validation, and understanding how data was collected are also essential parts of a reliable analysis.\nSource: Scientific Reports — Data Science research."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kukuru Grace Miyenbira",
+    "section": "",
+    "text": "I am a data science student interested in Machine Learning, Data Analytics, and Artificial Intelligence.\nThis website collects my projects, my blog, and my CV."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Kukuru Grace Miyenbira",
+    "section": "Education",
+    "text": "Education\nUniversity of Ibadan | M.Sc. Data Science | 2026–Present\nFederal University of Technology, Akure | B.Sc. Software Engineering | 2018–2024"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Kukuru Grace Miyenbira",
+    "section": "Interests",
+    "text": "Interests\n\nData Analytics\nMachine Learning\nArtificial Intelligence\nData Science"
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Date\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nOct 19, 2026\n\n\n5 Data Science Projects Beginners Can Build in 2026\n\n\nKukuru Grace Miyenbira\n\n\n\n\n\n\nOct 19, 2026\n\n\nWhy Data Quality Matters in Machine Learning\n\n\nKukuru Grace Miyenbira\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Data cleaning and preparation\nExploratory data analysis\nR programming\nPython programming\nData visualisation\nMachine learning fundamentals\n\n\n\nUniversity of Ibadan | M.Sc. Data Science | 2026–Present\nFederal University of Technology, Akure | B.Sc. Software Engineering | 2018–2024"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "University of Ibadan | M.Sc. Data Science | 2026–Present\nFederal University of Technology, Akure | B.Sc. Software Engineering | 2018–2024"
+  },
+  {
+    "objectID": "posts/Data_science_projects_for_beginners/index.html",
+    "href": "posts/Data_science_projects_for_beginners/index.html",
+    "title": "5 Data Science Projects Beginners Can Build in 2026",
+    "section": "",
+    "text": "If you are learning data science, you do not need complicated algorithms or huge datasets to begin building a portfolio. Start with a clear question, a manageable dataset, and an analysis you can explain.\nHere are five beginner-friendly projects to try in 2026."
+  },
+  {
+    "objectID": "posts/Data_science_projects_for_beginners/index.html#getting-started-with-data-science-projects",
+    "href": "posts/Data_science_projects_for_beginners/index.html#getting-started-with-data-science-projects",
+    "title": "5 Data Science Projects Beginners Can Build in 2026",
+    "section": "",
+    "text": "If you are learning data science, you do not need complicated algorithms or huge datasets to begin building a portfolio. Start with a clear question, a manageable dataset, and an analysis you can explain.\nHere are five beginner-friendly projects to try in 2026."
+  },
+  {
+    "objectID": "posts/Data_science_projects_for_beginners/index.html#student-performance-analysis",
+    "href": "posts/Data_science_projects_for_beginners/index.html#student-performance-analysis",
+    "title": "5 Data Science Projects Beginners Can Build in 2026",
+    "section": "1. Student Performance Analysis",
+    "text": "1. Student Performance Analysis\nExplore how study time, attendance, and other factors relate to students’ academic performance.\nSkills: Data cleaning, exploratory data analysis, visualisation.\nDataset: UCI Student Performance."
+  },
+  {
+    "objectID": "posts/Data_science_projects_for_beginners/index.html#personal-expense-analysis",
+    "href": "posts/Data_science_projects_for_beginners/index.html#personal-expense-analysis",
+    "title": "5 Data Science Projects Beginners Can Build in 2026",
+    "section": "2. Personal Expense Analysis",
+    "text": "2. Personal Expense Analysis\nAnalyse spending by category and month to identify where money goes and which expenses take up the largest share.\nSkills: Data cleaning, grouping, summary statistics, charts.\nDataset: Create a small spreadsheet of sample expenses or use a public financial dataset."
+  },
+  {
+    "objectID": "posts/Data_science_projects_for_beginners/index.html#weather-trend-analysis",
+    "href": "posts/Data_science_projects_for_beginners/index.html#weather-trend-analysis",
+    "title": "5 Data Science Projects Beginners Can Build in 2026",
+    "section": "3. Weather Trend Analysis",
+    "text": "3. Weather Trend Analysis\nInvestigate temperature or rainfall patterns over time. Identify the hottest months, compare seasons, and visualise changes.\nSkills: Time-series analysis, data visualisation, descriptive statistics.\nDataset: Open-Meteo historical weather data."
+  },
+  {
+    "objectID": "posts/Data_science_projects_for_beginners/index.html#wine-quality-prediction",
+    "href": "posts/Data_science_projects_for_beginners/index.html#wine-quality-prediction",
+    "title": "5 Data Science Projects Beginners Can Build in 2026",
+    "section": "4. Wine Quality Prediction",
+    "text": "4. Wine Quality Prediction\nExplore whether chemical measurements, such as acidity and alcohol content, are associated with wine quality.\nSkills: Correlation, regression or classification, model evaluation.\nDataset: UCI Wine Quality."
+  },
+  {
+    "objectID": "posts/Data_science_projects_for_beginners/index.html#a-simple-data-dashboard",
+    "href": "posts/Data_science_projects_for_beginners/index.html#a-simple-data-dashboard",
+    "title": "5 Data Science Projects Beginners Can Build in 2026",
+    "section": "5. A Simple Data Dashboard",
+    "text": "5. A Simple Data Dashboard\nChoose a small sales or survey dataset and create a dashboard showing important totals, comparisons, and trends.\nSkills: Data analysis, visualisation, communicating insights.\nTools: Excel, Power BI, Tableau, or R."
+  },
+  {
+    "objectID": "posts/Data_science_projects_for_beginners/index.html#how-to-make-your-project-stand-out",
+    "href": "posts/Data_science_projects_for_beginners/index.html#how-to-make-your-project-stand-out",
+    "title": "5 Data Science Projects Beginners Can Build in 2026",
+    "section": "How to make your project stand out",
+    "text": "How to make your project stand out\nDo not stop at copying a tutorial. Write down a question, clean and explore the data, create meaningful charts, explain your findings, and document your code on GitHub.\nThree well-finished projects that demonstrate your thinking are more useful than many unfinished projects.\nThe important thing is to start small, answer a real question, and build on what you learn. The goal is to demonstrate that you can turn data into understandable, useful insights."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Exploring Fuel Efficiency in Cars",
+    "section": "",
+    "text": "Fuel efficiency is an important consideration in vehicle design because it affects fuel costs and the amount of fuel consumed during travel. Understanding how vehicle characteristics relate to fuel efficiency can help explain differences in the performance of cars.\nThis analysis uses the built-in mtcars dataset in R to investigate the relationship between fuel efficiency, vehicle weight, and engine horsepower."
+  },
+  {
+    "objectID": "projects.html#introduction",
+    "href": "projects.html#introduction",
+    "title": "Exploring Fuel Efficiency in Cars",
+    "section": "",
+    "text": "Fuel efficiency is an important consideration in vehicle design because it affects fuel costs and the amount of fuel consumed during travel. Understanding how vehicle characteristics relate to fuel efficiency can help explain differences in the performance of cars.\nThis analysis uses the built-in mtcars dataset in R to investigate the relationship between fuel efficiency, vehicle weight, and engine horsepower."
+  },
+  {
+    "objectID": "projects.html#objectives",
+    "href": "projects.html#objectives",
+    "title": "Exploring Fuel Efficiency in Cars",
+    "section": "2. Objectives",
+    "text": "2. Objectives\nThe objectives of this analysis are to:\n\nDescribe fuel efficiency in the selected vehicles.\nExamine the relationship between vehicle weight and fuel efficiency.\ninvestigate whether vehicle weight and horsepower are associated with fuel efficiency when considered together."
+  },
+  {
+    "objectID": "projects.html#dataset-description",
+    "href": "projects.html#dataset-description",
+    "title": "Exploring Fuel Efficiency in Cars",
+    "section": "3. Dataset description",
+    "text": "3. Dataset description\nThe mtcars dataset contains observations on 32 automobiles and 11 variables. The data were extracted from the 1974 Motor Trend US magazine and describe cars from the 1973–1974 model years.\nThe variables used in this analysis are:\n\nMPG: Fuel efficiency, measured in miles per US gallon.\nWeight (wt): Vehicle weight, measured in thousands of pounds.\nHorsepower (hp): Engine horsepower.\n\nThe dataset is included with R, so no external file or download is required.\n\ndata(mtcars)\n\n# Examine the dataset\ndim(mtcars)\n\n[1] 32 11\n\nhead(mtcars)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n# Summary statistics for the variables\nsummary(mtcars[, c(\"mpg\", \"wt\", \"hp\")])\n\n      mpg              wt              hp       \n Min.   :10.40   Min.   :1.513   Min.   : 52.0  \n 1st Qu.:15.43   1st Qu.:2.581   1st Qu.: 96.5  \n Median :19.20   Median :3.325   Median :123.0  \n Mean   :20.09   Mean   :3.217   Mean   :146.7  \n 3rd Qu.:22.80   3rd Qu.:3.610   3rd Qu.:180.0  \n Max.   :33.90   Max.   :5.424   Max.   :335.0"
+  },
+  {
+    "objectID": "projects.html#exploratory-analysis",
+    "href": "projects.html#exploratory-analysis",
+    "title": "Exploring Fuel Efficiency in Cars",
+    "section": "4. Exploratory analysis",
+    "text": "4. Exploratory analysis\nThe next step to take is to examine whether vehicle weight is associated with fuel efficiency. The scatter plot below displays the relationship between vehicle weight and miles per gallon.\n\nlibrary(ggplot2)\n\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point(size = 2.5) +\n  geom_smooth(method = \"lm\", se = TRUE) +\n  labs(\n    title = \"Vehicle Weight and Fuel Efficiency\",\n    x = \"Vehicle weight (thousands of pounds)\",\n    y = \"Fuel efficiency (miles per US gallon)\"\n  ) +\n  theme_minimal()\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\nFigure 1: Relationship between vehicle weight and fuel efficiency in the mtcars dataset.\n\n\n\n\n\nAs shown in Figure Figure 1, the relationship between vehicle weight and fuel efficiency appears negative. Heavier vehicles generally have lower miles-per-gallon values, while lighter vehicles tend to have higher values. The fitted line summarizes the overall linear trend, and the shaded region represents its confidence interval."
+  },
+  {
+    "objectID": "projects.html#statistical-modelling",
+    "href": "projects.html#statistical-modelling",
+    "title": "Exploring Fuel Efficiency in Cars",
+    "section": "5. Statistical modelling",
+    "text": "5. Statistical modelling\nA multiple linear regression model is used to investigate the association between vehicle weight, horsepower, and fuel efficiency.\nThe model is expressed as:\n[ MPG_i = _0 + _1 WT_i + _2 HP_i + _i ]\nwhere (MPG_i) represents fuel efficiency, (WT_i) represents vehicle weight, (HP_i) represents horsepower, and (_i) represents the error term.\n\nmodel &lt;- lm(mpg ~ wt + hp, data = mtcars)\n\nsummary(model)\n\n\nCall:\nlm(formula = mpg ~ wt + hp, data = mtcars)\n\nResiduals:\n   Min     1Q Median     3Q    Max \n-3.941 -1.600 -0.182  1.050  5.854 \n\nCoefficients:\n            Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 37.22727    1.59879  23.285  &lt; 2e-16 ***\nwt          -3.87783    0.63273  -6.129 1.12e-06 ***\nhp          -0.03177    0.00903  -3.519  0.00145 ** \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 2.593 on 29 degrees of freedom\nMultiple R-squared:  0.8268,    Adjusted R-squared:  0.8148 \nF-statistic: 69.21 on 2 and 29 DF,  p-value: 9.109e-12\n\n\nThis model estimates the association between each predictor and fuel efficiency while holding the other predictor constant."
+  },
+  {
+    "objectID": "projects.html#results",
+    "href": "projects.html#results",
+    "title": "Exploring Fuel Efficiency in Cars",
+    "section": "6. Results",
+    "text": "6. Results\nThe regression coefficients and their statistical significance are presented in Table Table 1.\n\nmodel_results &lt;- as.data.frame(summary(model)$coefficients)\n\nmodel_results$Variable &lt;- rownames(model_results)\nrownames(model_results) &lt;- NULL\n\nmodel_results &lt;- model_results[, c(\n  \"Variable\", \"Estimate\", \"Std. Error\", \"t value\", \"Pr(&gt;|t|)\"\n)]\n\nnames(model_results) &lt;- c(\n  \"Variable\",\n  \"Coefficient\",\n  \"Standard error\",\n  \"t statistic\",\n  \"p-value\"\n)\n\nknitr::kable(\n  model_results,\n  digits = 4,\n  align = \"lrrrr\"\n)\n\n\n\nTable 1: Multiple linear regression results for fuel efficiency.\n\n\n\n\n\n\nVariable\nCoefficient\nStandard error\nt statistic\np-value\n\n\n\n\n(Intercept)\n37.2273\n1.5988\n23.2847\n0.0000\n\n\nwt\n-3.8778\n0.6327\n-6.1287\n0.0000\n\n\nhp\n-0.0318\n0.0090\n-3.5187\n0.0015\n\n\n\n\n\n\n\n\nA negative regression coefficient indicates that an increase in the predictor is associated with lower fuel efficiency, after accounting for the other variable in the model. A positive coefficient would indicate the opposite direction.\nThe p-values provide evidence about whether each coefficient differs from zero under the assumptions of the fitted model. They should be interpreted alongside the estimated effect sizes and the limitations of the dataset.\n\nmodel_summary &lt;- summary(model)\n\nfit_results &lt;- data.frame(\n  Measure = c(\"Number of cars\", \"R-squared\", \"Adjusted R-squared\"),\n  Value = c(\n    nobs(model),\n    round(model_summary$r.squared, 4),\n    round(model_summary$adj.r.squared, 4)\n  )\n)\n\nknitr::kable(\n  fit_results,\n  caption = \"Summary of model fit\",\n  align = \"lr\"\n)\n\n\nSummary of model fit\n\n\nMeasure\nValue\n\n\n\n\nNumber of cars\n32.0000\n\n\nR-squared\n0.8268\n\n\nAdjusted R-squared\n0.8148\n\n\n\n\n\nThe R-squared value describes the proportion of variation in fuel efficiency explained by vehicle weight and horsepower together in this dataset. The adjusted R-squared also accounts for the number of predictors included in the model."
+  },
+  {
+    "objectID": "projects.html#conclusion",
+    "href": "projects.html#conclusion",
+    "title": "Exploring Fuel Efficiency in Cars",
+    "section": "7. Conclusion",
+    "text": "7. Conclusion\nThe exploratory plot and regression model provide two complementary ways of studying fuel efficiency. The plot makes the relationship between weight and miles per gallon easy to see, while the regression model estimates the associations of weight and horsepower with fuel efficiency simultaneously.\nThese results describe associations rather than proving that vehicle weight or horsepower causes a change in fuel efficiency. Other factors, including engine technology, vehicle design, and driving conditions, are not accounted for in this simple model.\nThe dataset is also relatively small and represents automobiles from the 1970s. Its results should therefore not be treated as representative of modern vehicles."
+  }
+]
